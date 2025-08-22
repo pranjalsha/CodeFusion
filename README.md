@@ -59,7 +59,7 @@ npm start
 # Client
 cd client
 npm start
-Environment Variables
+# Environment Variables
 Key	Value / Description
 APP_CERTIFICATE	Agora app certificate (generate in Agora dashboard)
 APP_ID	Agora app ID
