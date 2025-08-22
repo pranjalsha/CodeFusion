@@ -1,6 +1,6 @@
 # CodeFusion
 
-**Contributors:** Aditya Singh, Pranjal Sha
+
 
 A real-time collaborative coding platform where teams can code together, compile programs, communicate via chat, video/audio calls, and annotate on a shared whiteboard.
 
@@ -59,13 +59,17 @@ npm start
 # Client
 cd client
 npm start
-# Environment Variables
-Key	Value / Description
-APP_CERTIFICATE	Agora app certificate (generate in Agora dashboard)
-APP_ID	Agora app ID
-MONGO_URI	MongoDB connection URI (Atlas or local)
-NODE_ENV	dev or prod
-REACT_APP_AGORA_ID	Agora app ID for frontend
-REACT_APP_API_URL	Backend server endpoint with port
-REACT_APP_ENV	dev or prod
-SKIP_PREFLIGHT_CHECK	true to skip CRA preflight checks
+## Environment Variables
+
+| Key                   | Value / Description                                   |
+|------------------------|-------------------------------------------------------|
+| APP_CERTIFICATE        | Agora app certificate (generate in Agora dashboard)   |
+| APP_ID                 | Agora app ID                                         |
+| MONGO_URI              | MongoDB connection URI (Atlas or local)              |
+| NODE_ENV               | `dev` or `prod`                                      |
+| REACT_APP_AGORA_ID     | Agora app ID for frontend                            |
+| REACT_APP_API_URL      | Backend server endpoint with port                    |
+| REACT_APP_ENV          | `dev` or `prod`                                      |
+| SKIP_PREFLIGHT_CHECK   | `true` to skip CRA preflight checks                  |
+
+
