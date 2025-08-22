@@ -1,0 +1,32 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --experimental-json-modules app.js",
+    "start": "node --experimental-json-modules app.js",
+    "client-install": "cd ./client && npm i --force",
+    "client-build": "cd ./client && npm run build",
+    "heroku-postbuild": "npm run client-install && npm run client-build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "agora-access-token": "^2.0.4",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.17.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.3.6",
+    "morgan": "^1.10.0",
+    "piston-client": "^1.0.2",
+    "socket.io": "^4.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
